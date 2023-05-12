@@ -1,0 +1,7 @@
+package e05;
+
+public class Human {
+	private Heart heart = new Heart();
+	private Eyes eyes = new Eyes();
+	
+}

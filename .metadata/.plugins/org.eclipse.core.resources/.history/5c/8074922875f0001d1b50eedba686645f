@@ -1,0 +1,27 @@
+package e05_assoclation_composition;
+
+public class Human2 {
+	private Heart heart = new Heart();
+	private Eyes eyes = new Eyes();
+
+	public Human2() {
+		super();
+	}
+
+	public Heart getHeart() {
+		return heart;
+	}
+
+	public void setHeart(Heart heart) {
+		this.heart = heart;
+	}
+
+	public Eyes getEyes() {
+		return eyes;
+	}
+
+	public void setEyes(Eyes eyes) {
+		this.eyes = eyes;
+	}
+
+}
