@@ -1,10 +1,13 @@
 package e01_generalization;
 
-public class Member {
+abstract public class Member {
 	private int id;
 	private String name;
 	private double point;
 	
+	public Member() {
+		super();
+	}
 	public Member(int id, String name, double point) {
 		super();
 		this.id = id;
@@ -30,5 +33,6 @@ public class Member {
 		this.point = point;
 	}
 	
+	abstract public double getBouns();
 	
 }
